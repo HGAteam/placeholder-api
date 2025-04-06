@@ -141,7 +141,7 @@
   <pre><code>&lt;img src="https://placeholder-api-production.up.railway.app/api/image?size=300x200&amp;bg=gray&amp;text=Placeholder"&gt;</code></pre>
 
   <h2>🔗 Repositorio GitHub</h2>
-  <p><a href="https://github.com/HGAteam/placeholder-image-api" class="link" target="_blank">github.com/HGAteam/placeholder-image-api</a></p>
+  <p><a href="https://github.com/HGAteam/placeholder-api" class="link" target="_blank">github.com/HGAteam/placeholder-api</a></p>
 
   <h2>🌐 Demo pública</h2>
   <p><code>https://api-placeholder.tudominio.com/api/image?size=600x300&text=Demo</code></p>
