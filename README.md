@@ -50,7 +50,7 @@ https://placeholder-api-production.up.railway.app/api/image?size=300x200&bg=ffcc
 ## Instalación
 1. Clona este repositorio:
    ```
-   git clone https://github.com/tu-usuario/placeholder-api.git
+   git clone https://github.com/HGAteam/placeholder-api.git
    ```
 2. Instala las dependencias:
    ```
