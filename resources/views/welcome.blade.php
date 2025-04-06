@@ -89,11 +89,11 @@
     </li>
     <li>
       <strong>Construye la URL:</strong> Combina los parámetros en la URL base de la API. Ejemplo:
-      <pre><code>https://tusitio.com/api/image?size=300x200&bg=ffcc00&text=Hola+Mundo</code></pre>
+      <pre><code>https://placeholder-api-production.up.railway.app/api/image?size=300x200&bg=ffcc00&text=Hola+Mundo</code></pre>
     </li>
     <li>
       <strong>Usa la URL en tu proyecto:</strong> Inserta la URL generada en tu código HTML o frontend. Ejemplo:
-      <pre><code>&lt;img src="https://tusitio.com/api/image?size=300x200&amp;bg=ffcc00&amp;text=Hola+Mundo" alt="Placeholder"&gt;</code></pre>
+      <pre><code>&lt;img src="https://placeholder-api-production.up.railway.app/api/image?size=300x200&amp;bg=ffcc00&amp;text=Hola+Mundo" alt="Placeholder"&gt;</code></pre>
     </li>
   </ol>
 
@@ -138,7 +138,7 @@
   </div>
 
   <h2>💡 Ejemplo de uso en HTML</h2>
-  <pre><code>&lt;img src="https://tusitio.com/api/image?size=300x200&amp;bg=gray&amp;text=Placeholder"&gt;</code></pre>
+  <pre><code>&lt;img src="https://placeholder-api-production.up.railway.app/api/image?size=300x200&amp;bg=gray&amp;text=Placeholder"&gt;</code></pre>
 
   <h2>🔗 Repositorio GitHub</h2>
   <p><a href="https://github.com/HGAteam/placeholder-image-api" class="link" target="_blank">github.com/HGAteam/placeholder-image-api</a></p>
