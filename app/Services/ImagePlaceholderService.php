@@ -36,9 +36,12 @@ class ImagePlaceholderService
         $x = intval($width / 2);
         $y = intval($height / 2);
 
-        $image->text($text, $x, $y, function ($font) use ($color) {
+        $image->text($text, $x, $y, function ($font) use ($color, $width, $height) {
+            // Calcula el tamaño de la fuente como el 10% del menor lado
+            $fontSize = intval(min($width, $height) * 0.1); 
             $font->filename(app_path('Fonts/arial.ttf'));
-            $font->size(24);
+            // Aplica el tamaño de la fuente calculado
+            $font->size($fontSize);
             $font->color($color);
             $font->align('center');
             $font->valign('center');
