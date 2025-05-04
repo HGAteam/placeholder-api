@@ -20,12 +20,12 @@ API Laravel para la generación dinámica de datos de prueba como imágenes plac
 
 ### Ejemplo de URL
 ```
-https://tusitio.com/api/image?size=300x200&bg=ffcc00&text=Hola+Mundo
+https://placeholder-api-production.up.railway.app/api/image?size=300x200&bg=ffcc00&text=Hola+Mundo
 ```
 
 ### Ejemplo de uso en HTML
 ```html
-<img src="https://tusitio.com/api/image?size=300x200&bg=gray&text=Placeholder" alt="Placeholder">
+<img src="https://placeholder-api-production.up.railway.app/api/image?size=300x200&bg=gray&text=Placeholder" alt="Placeholder">
 ```
 
 ## Ejemplos Visuales
@@ -46,25 +46,6 @@ https://tusitio.com/api/image?size=300x200&bg=ffcc00&text=Hola+Mundo
 ### Formatos Disponibles
 - `/api/image?size=300x200&text=JPEG&format=jpeg`
 - `/api/image?size=300x200&text=WEBP&format=webp`
-
-## Instalación
-1. Clona este repositorio:
-   ```
-   git clone https://github.com/tu-usuario/placeholder-api.git
-   ```
-2. Instala las dependencias:
-   ```
-   composer install
-   ```
-3. Configura el archivo `.env` con tus credenciales de base de datos.
-4. Ejecuta las migraciones:
-   ```
-   php artisan migrate
-   ```
-5. Inicia el servidor:
-   ```
-   php artisan serve
-   ```
 
 ## Stack Tecnológico
 - Laravel 12.x
