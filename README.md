@@ -47,25 +47,6 @@ https://placeholder-api-production.up.railway.app/api/image?size=300x200&bg=ffcc
 - `/api/image?size=300x200&text=JPEG&format=jpeg`
 - `/api/image?size=300x200&text=WEBP&format=webp`
 
-## Instalación
-1. Clona este repositorio:
-   ```
-   git clone https://github.com/HGAteam/placeholder-api.git
-   ```
-2. Instala las dependencias:
-   ```
-   composer install
-   ```
-3. Configura el archivo `.env` con tus credenciales de base de datos.
-4. Ejecuta las migraciones:
-   ```
-   php artisan migrate
-   ```
-5. Inicia el servidor:
-   ```
-   php artisan serve
-   ```
-
 ## Stack Tecnológico
 - Laravel 12.x
 - Intervention Image v3 con driver Gd
